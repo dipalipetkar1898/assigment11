@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarel;
+    text-align: center;
+}
+.grid-container{
+    width: 80%;
+    height: 80vh;
+    margin: 5% 10%;
+    background-color: paleturquoise;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+    "dabba3 dabba2" 
+    "dabba1 dabba4";
+}
+.grid-item{
+    padding-top: 50px;
+    min-height: 100px;
+    background-color: aquamarine;
+}
+.dabba1{
+    grid-area: dabba1;
+}
+.dabba2{
+    grid-area: dabba2;
+}
+.dabba3{
+    grid-area: dabba3;
+}
+.dabba4{
+    grid-area: dabba4;
+}
